@@ -34,6 +34,7 @@ To develop and test the kernel module, the following steps were taken:
   vii.Then, from the main screen, go to the Firewall settings and select both HTTP and HTTPS traffic.
 
 6.You can now connect to the VM directly from the browser using SSH.
+
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/100962942/200424371-38137538-3485-4b35-909b-384804c2f521.png">
 
 7.Make a directory called "cmpe283-assing."
