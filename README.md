@@ -1,10 +1,18 @@
 [1] For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
+
+
 Raju:
+
+
 Recognized that the CentOS kernel is simple to use, so gathered steps to start a CentOS kernel. 
 Final files were pushed to git and cloned into the virtual machine. 
 Steps were completed in the outer and inner VMs, and snippets were collected. 
 Assignment questions and answers were discussed.
+
+
 Subhadra:
+
+
 Code changes for assignment have been understood. 3 
 We used the base files from assignment 2 for cpuid.c and vmx.c and updated them for assignment 3
 Assignment questions and answers were discussed. 
