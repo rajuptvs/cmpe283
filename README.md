@@ -1,14 +1,14 @@
 [1] For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
 Raju:
-*Recognized that the CentOS kernel is simple to use, so gathered steps to start a CentOS kernel. 
-*Final files were pushed to git and cloned into the virtual machine. 
-*Steps were completed in the outer and inner VMs, and snippets were collected. 
-*Assignment questions and answers were discussed.
+Recognized that the CentOS kernel is simple to use, so gathered steps to start a CentOS kernel. 
+Final files were pushed to git and cloned into the virtual machine. 
+Steps were completed in the outer and inner VMs, and snippets were collected. 
+Assignment questions and answers were discussed.
 Subhadra:
-*Code changes for assignment have been understood. 3 
-*We used the base files from assignment 2 for cpuid.c and vmx.c and updated them for assignment 3
-*Assignment questions and answers were discussed. 
-*README.md has been updated and documentation has been created.
+Code changes for assignment have been understood. 3 
+We used the base files from assignment 2 for cpuid.c and vmx.c and updated them for assignment 3
+Assignment questions and answers were discussed. 
+README.md has been updated and documentation has been created.
 
 [2] Nested Virtualization in Google Cloud Platform (GCP), Nested virtualization are used.Running VM instances along other VMs to create own virtualization environments. On a physical host running Google's security-hardened, KVM-based hypervisor, Compute Engine virtual machines are executed. The physical host and its hypervisor serve as the level 0 (L0) environment in nested virtualization. Multiple level 1 (L1) VMs can be hosted in the L0 environment.Another hypervisor is installed on each L1 VM and is used to install the level 2 (L2) VMs.
 
