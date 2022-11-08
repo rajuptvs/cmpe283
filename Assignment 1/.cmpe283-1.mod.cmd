@@ -1,0 +1,1 @@
+cmd_/home/tirupativenkatasrisairama_penmat/cmpe283-assignment1/cmpe283-1.mod := { echo  /home/tirupativenkatasrisairama_penmat/cmpe283-assignment1/cmpe283-1.o;  echo; } > /home/tirupativenkatasrisairama_penmat/cmpe283-assignment1/cmpe283-1.mod
