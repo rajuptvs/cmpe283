@@ -4,7 +4,7 @@
 Raju:
 
 
-Recognized that the CentOS kernel is simple to use, so gathered steps to start a CentOS kernel. 
+Recognized that the Ubuntu Pro 22.0.4 kernel is simple to use, so gathered steps to start a UbuntuOS kernel. 
 Final files were pushed to git and cloned into the virtual machine. 
 Steps were completed in the outer and inner VMs, and snippets were collected. 
 Assignment questions and answers were discussed.
@@ -46,7 +46,7 @@ To develop and test the kernel module, the following steps were taken:
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/100962942/200424371-38137538-3485-4b35-909b-384804c2f521.png">
 
 7.Make a directory called "cmpe283-assing."
-mkdir cmpe283-assing
+mkdir cmpe283
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/100962942/200424424-e55e5fdd-1585-4020-8add-2a97050bacd6.png">
 
@@ -59,6 +59,7 @@ i.Created structures with names (descriptions) and bit positions for Primary Pro
 ii.To detect and print CPU VMX capabilities, the function report capability () is called with appropriate parameters passed to print Primary Processor, Secondary Processor, Tertiary Processor, Entry and Exit controls.
 10.Run below command:
   apt install gcc make
+  apt install build-essential
   sudo apt-get linux-headers-$(uname -r)
   
   <img width="468" alt="image" src="https://user-images.githubusercontent.com/100962942/200424584-b2fbbd2b-8eb0-46d7-8660-b79d725dc46d.png">
