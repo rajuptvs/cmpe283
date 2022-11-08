@@ -14,11 +14,11 @@ Subhadra:
 
 
 Code changes for assignment have been understood. 3 
-We used the base files from assignment 2 for cpuid.c and vmx.c and updated them for assignment 3
+We used the base files from the lecture and canvas.
 Assignment questions and answers were discussed. 
 README.md has been updated and documentation has been created.
 
-[2] Nested Virtualization in Google Cloud Platform (GCP), Nested virtualization are used.Running VM instances along other VMs to create own virtualization environments. On a physical host running Google's security-hardened, KVM-based hypervisor, Compute Engine virtual machines are executed. The physical host and its hypervisor serve as the level 0 (L0) environment in nested virtualization. Multiple level 1 (L1) VMs can be hosted in the L0 environment.Another hypervisor is installed on each L1 VM and is used to install the level 2 (L2) VMs.
+
 
 To develop and test the kernel module, the following steps were taken:
 
@@ -37,16 +37,17 @@ To develop and test the kernel module, the following steps were taken:
   ii.Region: Choose the Region in which the custom image was created.. example "us-west1-b".
   iii.Machine Family: General Purpose.
   iv.Series: Select "N2" for lab.
-  v.Select "N2-standard-8 (8 vCPU, 8 GB Memory)" as the machine type. This is the recommended configuration for lab setup; however, you can choose any other combination that meets your needs.
-  vi.Then,for the Boot Disk selection, click the 'Change' button. You must choose your custom image "cmpe-283-image."
+  v.Select "N2-standard-8 (8 vCPU, 8 GB Memory)" as the machine type.
+  vi.Then,for the Boot Disk selection, click the 'Change' button. 
   vii.Then, from the main screen, go to the Firewall settings and select both HTTP and HTTPS traffic.
+  viii. collected the equivalent command and added --enable nested virtalization flag to enable nested virtualization in our VM
 
 6.You can now connect to the VM directly from the browser using SSH.
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/100962942/200424371-38137538-3485-4b35-909b-384804c2f521.png">
 
-7.Make a directory called "cmpe283-assing."
-mkdir cmpe283
+7.Make a directory called "cmpe283-assingment1"
+mkdir cmpe283-assingment1
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/100962942/200424424-e55e5fdd-1585-4020-8add-2a97050bacd6.png">
 
